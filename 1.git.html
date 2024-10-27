@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+How to enter into git         
+=>select the folder git and github then select threee dot present on top select terminal
+then new terminal then on right side beside + sign a drag sign select git bash
+
+first step enableing git in projrct:
+for it 'git init' command creates a new .git hidden folder 
+
+git status command tells about the current state of project
+
+core of git:
+git init 
+stage1:working directory or working tree(show untracked file) --------> 
+git status:
+No commits yet
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+stage2:staging area --------->
+after writting "git add filename" command the code enters into  staging area
+git add 234index.html
+if somthing in the staging area it will probably be a part of the next version/commit 
+so that it used the text changes to be committed                                   
+after change in code if not git add the file remains in working directory
+now it is not still untracked git used to track that particular file
+stage3:local repository --------->
+git commit command used to move staging area to the local repository where different versions of the code exists
+
+git commit [need login for the 1st time]
+{Author identity unknown
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address (got 'RANIT@DESKTOP-AH6AJ66.(none)')   }
+
+git config --global user.email "batabyalranit3@gmail.com"
+  git config --global user.name "Ranit Kumar Batabyal"
+steps:press i for insert mode
+  added 234index.html
+  # Please enter the commit message for your changes. Lines starting
+  # with '#' will be ignored, and an empty message aborts the commit.
+  #
+  # On branch master
+  #
+  # Initial commit
+  #
+  # Changes to be committed:
+  #       new file:   234index.html
+  #
+  # Untracked files:
+  #       1.git.html
+  #
+
+  Now press "esc" :wq
+  
+git commit -m'added new file' ,is massage 
+git log show timeline and details
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </pre>
+    
+</body>
+</html>
