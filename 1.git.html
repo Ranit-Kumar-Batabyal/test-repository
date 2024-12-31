@@ -60,13 +60,22 @@ steps:press i for insert mode
   #
   # Untracked files:
   #       1.git.html
-  #
+  
 
   Now press "esc" :wq
   
 shortcut for this:
 git commit -m "added new file # massage "
+
+$ git commit -m "hello this is a git massage"
+[master 14d4c19] hello this is a git massage
+ 1 file changed, 16 insertions(+), 7 deletions(-)
+
 git log show timeline and details of changes and the publicity
+commit a2c5c6f4cd2a3609d87e73a7e5194afbb931acc7
+Author: Ranit Kumar Batabyal <batabyalranit3@gmail.com>
+Date:   Sat Oct 26 20:00:03 2024 -0700
+
   to exit from git log press 'q'  
     
 stage:4 ----->
@@ -83,9 +92,21 @@ These are used as central repository is online plattform
    create a new account
    on upper right cornet + drag sign create anew repository
    give filename select private or public
-   
-    
-    
+
+    now to add or link local repository with remote repository
+    enter command it git
+    git remote add origin https://github.com/Ranit-Kumar-Batabyal/git-sample.git
+      origin portion is the name only is can be changed ,you can choose any name
+
+    to check the centeal repository name enter git command 
+      git remote
+      
+      $ git remote
+      origin
+
+    to connect or add a particular repository 
+    git push origin main {main is a branch} enter
+
     
     </pre>
     
